@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hardware</title>
-    <style>
-        body { background-color: #fff9c4; font-family: Arial, sans-serif; margin: 0; padding: 0; }
-        div.menu { background-color: #1a237e; padding: 15px 0; text-align: center; }
-        div.menu a { color: white; text-decoration: none; font-weight: bold; margin: 0 15px; font-size: 18px; }
-        div.menu a:hover { color: #f57f17; }
-        div.content { text-align: center; padding: 50px 20px; }
-        h1 { color: #ff6f00; }
-        p { color: #333333; font-size: 18px; }
-        p.box { background-color: #fff3e0; padding: 15px; border-radius: 10px; display: inline-block; margin: 15px 0; }
-        img { width: 400px; border-radius: 10px; margin: 20px auto; display: block; }
-    </style>
-</head>
-<body>
+<meta charset="UTF-8">
+<title>Hardware</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
-<div class="menu">
-    <a href="index.html">Home</a>
-    <a href="hardware.html">Hardware</a>
-    <a href="software.html">Software</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-</div>
+<style>
+body{margin:0;font-family:'Poppins';background:#fff8dc;text-align:center}
+nav{background:#ffb703;padding:15px}
+nav a{margin:15px;text-decoration:none;font-weight:600;color:black}
+nav a:hover{color:white}
+.content{padding:30px;animation:fade 1.5s}
+img{width:60%;border-radius:10px;animation:zoom 1.5s}
+
+@keyframes fade{from{opacity:0;transform:translateY(20px)}to{opacity:1}}
+@keyframes zoom{from{transform:scale(0.8)}to{transform:scale(1)}}
+</style>
+</head>
+
+<body>
+<nav>
+<a href="index.html">Home</a>
+<a href="hardware.html">Hardware</a>
+<a href="software.html">Software</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
 
 <div class="content">
-    <h1>Computer Hardware</h1>
-    <p class="box">Hardware are the physical parts of a computer like CPU, Monitor, Keyboard, Mouse, etc.</p>
-    <p class="box">These components help the computer to work properly and interact with users.</p>
-    <img src="images/hardware1.jpg" alt="Hardware Image">
+<h1>Computer Hardware</h1>
+<img src="images/hardware1.jpg">
+<p>Hardware refers to the physical parts of a computer such as keyboard, mouse, CPU, monitor and printer.</p>
 </div>
-
 </body>
 </html>
